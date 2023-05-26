@@ -4,6 +4,10 @@
   <groupId>Test.unitaire</groupId>
   <artifactId>Test_Unitaire</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
   <dependencies>
     <!-- Dépendance pour JUnit 4 -->
     <dependency>
