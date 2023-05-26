@@ -20,13 +20,13 @@ public class BookTest {
     @ParameterizedTest
     @MethodSource("bookProvider")
     public void testGetTitle(Book book) {
-        Assertions.assertNotNull(book.getTitle());
+        Assertions.assertEquals(book.getTitle(), "Title 1");
     }
 
     @ParameterizedTest
     @MethodSource("bookProvider")
     public void testGetAuthor(Book book) {
-        Assertions.assertNotNull(book.getAuthor());
+        Assertions.assertEquals(book.getAuthor(), "Author 1");
     }
 
 }
