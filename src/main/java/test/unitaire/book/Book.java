@@ -3,7 +3,7 @@ package test.unitaire.book;
 import java.util.Date;
 
 public class Book {
-    private String title;
+    private String title;//
     private String author;
     private Date publicationDate;
 
