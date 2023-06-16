@@ -1,4 +1,4 @@
-package test.unitaire.book;
+package books;
 
 import java.util.Date;
 
